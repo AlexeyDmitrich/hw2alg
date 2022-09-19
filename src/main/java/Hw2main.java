@@ -15,6 +15,9 @@ public class Hw2main {
         System.out.println("Сортировка по RAM:");
         sorted = sortByRam(notes);
         System.out.println(sorted);
+        System.out.println("Сортировка по производителю:");
+        sorted = sortByBrand(notes);
+        System.out.println(sorted);
     }
 
     public static ArrayList<Notebook> sortByPrice (Notebook[] notebooks) {
@@ -37,9 +40,14 @@ public class Hw2main {
     }
 
     public static ArrayList<Notebook> sortByBrand (Notebook[] notebooks) {
-        ArrayList<Notebook> sorted = new ArrayList <Notebook>();
+        ArrayList<Notebook> sortedByBrand = new ArrayList <Notebook>();
+        for (int i = 0; i < notebooks.length; i++) {
+            sortedByBrand.add(notebooks[i]);
+        }
+        Comparator brandComparator = new BrandComparator();
+        Collections.sort(sortedByBrand, brandComparator);
 
-        return sorted;
+        return sortedByBrand;
     }
 
     public static Notebook[] factory (int value){

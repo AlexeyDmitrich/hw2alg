@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56a777d7-90ee-447e-9974-c8ac162ba8b9" name="Changes" comment="hw2 v.0.1.0 &#10;Создан класс ноутбуков&#10;Добавлена логика производства случайных ноутбуков и определения их в массив">
+    <list default="true" id="56a777d7-90ee-447e-9974-c8ac162ba8b9" name="Changes" comment="hw2 v.0.1.1 &#10;добавлены методы сравнения по цене и оперативной памяти.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Hw2main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Hw2main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Notebook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Notebook.java" afterDir="false" />
@@ -92,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663576185908</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="hw2 v.0.1.1 &#10;добавлены методы сравнения по цене и оперативной памяти.">
+      <created>1663589978453</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1663589978453</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -121,6 +128,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hw2 v.0.0.1 &#10;created" />
     <MESSAGE value="hw2 v.0.1.0 &#10;Создан класс ноутбуков&#10;Добавлена логика производства случайных ноутбуков и определения их в массив" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw2 v.0.1.0 &#10;Создан класс ноутбуков&#10;Добавлена логика производства случайных ноутбуков и определения их в массив" />
+    <MESSAGE value="hw2 v.0.1.1 &#10;добавлены методы сравнения по цене и оперативной памяти." />
+    <option name="LAST_COMMIT_MESSAGE" value="hw2 v.0.1.1 &#10;добавлены методы сравнения по цене и оперативной памяти." />
   </component>
 </project>
