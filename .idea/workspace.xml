@@ -7,7 +7,7 @@
     <list default="true" id="56a777d7-90ee-447e-9974-c8ac162ba8b9" name="Changes" comment="hw2 v.0.0.1 &#10;created">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Hw2main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Hw2main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Smartphone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Notebook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Notebook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Notebook.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,12 +33,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/reu/edu/hw_alg2/hw2alg&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="Hw2main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Hw2main" />
+      <module name="hw2alg" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Hw2main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -55,7 +70,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663331446076</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="hw2 v.0.0.1 &#10;created">
+      <created>1663333031009</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1663333031009</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
