@@ -1,26 +1,43 @@
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.Random;
 
 public class Hw2main {
     static final Random rnd = new Random();
     public static void main(String[] args) {
-        Notebook[] notes = factory(4);
+        Notebook[] notes = factory(8);
         print(notes);
+        ArrayList<Notebook> sorted = new ArrayList<>();
+        System.out.println("Сортировка по цене:");
+        sorted = sortByPrice(notes);
+        System.out.println(sorted);
+        System.out.println("Сортировка по RAM:");
+        sorted = sortByRam(notes);
+        System.out.println(sorted);
     }
 
-    public static Notebook[] sortByPrice (Notebook[] notebooks) {
-        Notebook[] sorted = new Notebook[notebooks.length];
-
-        return sorted;
+    public static ArrayList<Notebook> sortByPrice (Notebook[] notebooks) {
+        ArrayList<Notebook> sortedByPrice = new ArrayList <Notebook>();
+        for (int i = 0; i < notebooks.length; i++) {
+            sortedByPrice.add(notebooks[i]);
+        }
+        Collections.sort(sortedByPrice);
+        return sortedByPrice;
     }
 
-    public static Notebook[] sortByRam (Notebook[] notebooks) {
-        Notebook[] sorted = new Notebook[notebooks.length];
-
-        return sorted;
+    public static ArrayList<Notebook> sortByRam (Notebook[] notebooks) {
+        ArrayList<Notebook> sortedByRam = new ArrayList <Notebook>();
+        for (int i = 0; i < notebooks.length; i++) {
+            sortedByRam.add(notebooks[i]);
+        }
+        Comparator ramComparator = new RamComparator();
+        Collections.sort(sortedByRam, ramComparator);
+        return sortedByRam;
     }
 
-    public static Notebook[] sortByBrand (Notebook[] notebooks) {
-        Notebook[] sorted = new Notebook[notebooks.length];
+    public static ArrayList<Notebook> sortByBrand (Notebook[] notebooks) {
+        ArrayList<Notebook> sorted = new ArrayList <Notebook>();
 
         return sorted;
     }
