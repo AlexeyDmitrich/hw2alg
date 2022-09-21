@@ -20,6 +20,7 @@ public class Hw2main {
         System.out.println(sorted);
     }
 
+
     public static ArrayList<Notebook> sortByPrice (Notebook[] notebooks) {
         ArrayList<Notebook> sortedByPrice = new ArrayList <Notebook>();
         for (int i = 0; i < notebooks.length; i++) {

@@ -3,13 +3,19 @@ import java.util.Comparator;
 public class Notebook implements Comparable<Notebook> {
    double price;
    int ram;
-   String brand;   // enum
-    private int brandPriority = priorityCalc(this.brand);
+    private enum Brand{
+        Lenuvo,
+        Asos,
+        MacNote,
+        Eser,
+        Xamiou
+    }
+Brand brand;
 
     public Notebook(double price, int ram, String brand) {
         this.price = price;
         this.ram = ram;
-        this.brand = brand;
+        this.brand = Brand.valueOf(brand);
     }
 
     public double getPrice() {
@@ -20,12 +26,12 @@ public class Notebook implements Comparable<Notebook> {
         return ram;
     }
 
-    public String getBrand() {
+    public Brand getBrand() {
         return brand;
     }
 
     public int getBrandPriority() {
-        return brandPriority;
+        return getBrand().ordinal()+1;
     }
 
     @Override
@@ -38,19 +44,5 @@ public class Notebook implements Comparable<Notebook> {
     public int compareTo(Notebook o) {
         return (int) (this.getPrice()-o.getPrice());
     }
-    private static int priorityCalc (String brand){
-        if (brand.equals("Lenuvo")){
-            return 1;
-        } else if (brand.equals("Asos")) {
-            return 2;
-        } else if (brand.equals("MacNote")) {
-            return 3;
-        } else if (brand.equals("Eser")) {
-            return 4;
-        } else if (brand.equals("Xamiou")) {
-            return 5;
-        } else {
-            return 6;
-        }
-    }
+
 }
